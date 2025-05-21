@@ -5,13 +5,28 @@
 
 .banneri {
   display: flex;
-  background-color: #29c3ce;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #3a3a3a, #1db9d4, #3a3a3a);
   justify-content: center;
   align-items: center;
   position: sticky;
   top: 0;
-  font-weight: bold;
-  height: 60px;
+  font-weight: 400;
+  height: 75px;
+  color: var(--väri-teksti-sisältö);
+  gap: var(--väli-x1);
+}
+
+.banneri__teksti {
+  margin: 0;
+}
+
+.portfolio__linkki {
+  color: rgb(223, 58, 8)
+}
+
+.portfolio__linkki:hover {
+  color: aquamarine;
 }
 
 :root {
