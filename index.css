@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #ff9100;
+  color: aquamarine;
   text-decoration: none;
   cursor: pointer;
 }
