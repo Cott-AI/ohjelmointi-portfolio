@@ -1,0 +1,1 @@
+var s;const t=((s=globalThis.__sveltekit_mdp8v2)==null?void 0:s.base)??"/ohjelmointi-portfolio/svelte-kauppa";var e;const a=((e=globalThis.__sveltekit_mdp8v2)==null?void 0:e.assets)??t;export{a,t as b};
